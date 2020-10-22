@@ -13,11 +13,11 @@ project:
   type: "Mobile"
   url: ""
   logo: "/assets/images/projects/Anitive/logo.png"
-  tech: "React Native, Apollo Client ,Javascript, Typescript, CSS"
+  tech: "React Native, Apollo Client , Javascript, Typescript, CSS"
 
 duties:
   - duty:
-    content: "Management and fetching of data done through Apollo Client in combination with Anilist's GraphQL API."
+    content: "Manage and fetch data through Apollo Client in combination with Anilist's GraphQL API."
   - duty:
     content: "Develop modern looking UI."
   - duty:

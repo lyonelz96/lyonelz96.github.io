@@ -1,55 +1,21 @@
 # Pineapple
 
-Pineapple is a minimalistic [Jekyll](https://jekyllrb.com) portfolio theme that focuses on putting your projects in the spotlight.
+# lyonelz96.github.io
+Welcome to my website! [lyonelz96.github.io](https://lyonelz96.github.io)
 
-![Pineapple screenshot](https://user-images.githubusercontent.com/9528895/38713105-6dda8a74-3ec7-11e8-8062-8aa6cf24c795.jpg)
+You will find some of the cool projects I have worked on or am working on in here.
 
-See Pineapple in action on the [demo site](https://arnolds.io/pineapple/).
+This website will always be a WIP and will continue to modify it to better suit my needs.
+One of my goals is to eventually add a section for any Music projects I'm working on as well as **maybe** write some educational blog posts on programming, design patterns, music theory, music composition, videogames and many more topics!
 
-## Contents
+At the bottom of the website you will find ways you can contact me! I'll leave some of them here aswell, for convenience.
+[My Github](https://github.com/lyonelz96)
+[My LinkedIn](https://www.linkedin.com/in/lyonelz96/)
 
-- [Setup](#setup)
-- [Deploy to Github Pages](#deploy-to-github-pages)
-- [Creating projects](#creating-projects)
-- [Resources](#resources)
-- [License](#license)
 
-## Setup
-
-Install dependencies:
-
-```
-$ gem install jekyll bundler
-```
-
-Pulldown the project:
-
-```
-$ git clone git@github.com:arnolds/pineapple.git
-$ cd pineapple
-```
-
-Start Jekyll:
-
-```
-$ jekyll serve
-```
-
-Browse to http://127.0.0.1:4000/pineapple/ for some Pineapple goodness.
-
-## Deploy to Github Pages
-
-1. Fork this repository, then rename the repository to yourgithubusername.github.io.
-2. Update user configuration values in `_config.yml`, and also set `baseurl: ""`.
-
-## Creating projects
-
-Projects are created as `.md` documents within the `_posts/projects` directory. They follow the same naming conventions as regular [Jekyll posts](https://jekyllrb.com/docs/posts/). Pineapple comes with four example projects, which you should use as a guide for creating your own e.g. [Red Pineapple](_posts/projects/2017-04-01-redpineapple.md).
-
-## Resources
-
-- [Apple Devices PSD Mockup Templates](https://www.graphicsfuel.com/2016/04/apple-devices-psd-mockup-templates/)
+## Credits
+This website would not be possible without [Github Pages](https://pages.github.com) and [Jekyll](https://jekyllrb.com).
+Jekyll theme: [Pineapple](https://github.com/arnolds/pineapple)
 
 ## License
-
 Open sourced under the [MIT license](LICENSE.md).

@@ -20,5 +20,7 @@ This website would not be possible without [Github Pages](https://pages.github.c
 
 Jekyll theme: [Pineapple](https://github.com/arnolds/pineapple)
 
+Favicon: [Favicon](https://www.websiteplanet.com/webtools/favicon-generator/)
+
 ## License
 Open sourced under the [MIT license](LICENSE.md).

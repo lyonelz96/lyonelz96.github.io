@@ -1,5 +1,3 @@
-# Pineapple
-
 # lyonelz96.github.io
 Welcome to my website! [lyonelz96.github.io](https://lyonelz96.github.io)
 

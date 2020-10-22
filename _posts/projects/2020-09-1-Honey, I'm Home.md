@@ -22,7 +22,7 @@ duties:
     content: "Make the VFX using Unity’s Post-Processing and made it dynamic based on the characters level of intoxication."
 
 agency:
-  year: "2019"
+  year: "2020"
 
 images:
   - image:

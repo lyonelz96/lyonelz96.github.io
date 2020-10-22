@@ -9,7 +9,7 @@ meta:
 project:
   title: "Always Day"
   role: "Gameplay Programmer"
-  description: "Always Day is an Adventure Platormer isometric game where you have to defeat three spirits that are guarding the keys which will bring light back to the island."
+  description: "Always Day is an Adventure Platformer isometric game where you have to defeat three spirits that are guarding the keys which will bring light back to the island."
   type: "Game"
   url: "https://ohmz19.itch.io/always-day"
   logo: "/assets/images/projects/Always Day/logo.png"

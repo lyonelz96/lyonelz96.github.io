@@ -1,0 +1,62 @@
+I"?<p>Audio Examples from the game:</p>
+
+<style>
+table{
+  margin-top: 25px;
+}
+
+td {
+  text-align:center;
+}
+audio{
+  margin-top: 8px;
+}
+</style>
+
+<table>
+<thead>
+  <tr>
+    <th>Name</th>
+    <th>Audio</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Main Theme</td>
+    <td>
+      <audio controls=""><source src="../assets/audio/projects/Catastrophe/Music_Theme.wav" type="audio/wav" /></audio>
+    </td>
+  </tr>
+  <tr>
+    <td>Winning Music</td>
+    <td>
+      <audio controls=""><source src="../assets/audio/projects/Catastrophe/Music_Winning.wav" type="audio/wav" /></audio>
+    </td>
+  </tr>
+  <tr>
+    <td>Losing Music</td>
+    <td>
+      <audio controls=""><source src="../assets/audio/projects/Catastrophe/Music_Losing.wav" type="audio/wav" /></audio>
+    </td>
+  </tr>
+  <tr>
+    <td>Sniper</td>
+    <td>
+      <audio controls=""><source src="../assets/audio/projects/Catastrophe/Gun_Sound_Sniper_Shooting.wav" type="audio/wav" /></audio>
+    </td>
+  </tr>
+  <tr>
+    <td>Shotgun</td>
+   <td>
+      <audio controls=""><source src="../assets/audio/projects/Catastrophe/Gun_Sound_Shotgun_Shooting.wav" type="audio/wav" /></audio>
+   </td>
+  </tr>
+  <tr>
+    <td>AR</td>
+    <td>
+      <audio controls=""><source src="../assets/audio/projects/Catastrophe/Gun_Sound_AR_Shooting.wav" type="audio/wav" /></audio>
+    </td>
+  </tr>
+</tbody>
+</table>
+:ET

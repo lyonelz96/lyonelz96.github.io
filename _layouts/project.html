@@ -18,12 +18,30 @@
 						<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow">{{ page.project.title }}</a>
 					</h1>
 					<span class="h2">Role</span>
+					<h1>
+						{{page.project.role}}
+					</h1>
+					<span class="h2">Description</span>
+					<p>{{page.project.description}}</p>
+					<br>
+					<p>Duties:</p>
+					<ul style="
+					display: block;
+					list-style-type: disc;
+					margin-top: 1em;
+					margin-bottom: 1 em;
+					margin-left: 0;
+					margin-right: 0;
+					padding-left: 40px;">
+						{% for duty in page.duties %}
+						<li>{{duty.content}}</li>
+						{% endfor %}
+					</ul>
+					<br>
 					{{ page.content }}
 					<div class="project-meta">
 						<span class="h2">Technologies</span>
 						<p>{{ page.project.tech }}</p>
-						<span class="h2">Agency</span>
-						<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank" rel="nofollow">{{ page.agency.title }}</a></p>
 						<span class="h2">Year</span>
 						<p>{{ page.agency.year }}</p>
 					</div>

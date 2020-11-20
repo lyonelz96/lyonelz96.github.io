@@ -36,6 +36,10 @@ images:
   - image:
     url: "/assets/images/projects/Catastrophe/3.png"
     alt: ""
+
+videos:
+  - video:
+    url: "https://www.youtube.com/embed/g-cxWQLlxCo"
 ---
 
 <p>Audio Examples from the game:</p>

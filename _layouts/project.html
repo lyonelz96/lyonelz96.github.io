@@ -6,6 +6,23 @@
 	<meta name="description" content="{{ page.content | strip_html | strip_newlines }}">
 	<meta name="keywords" content="{{ page.meta.keywords }}">
 	{% include head.html %}
+
+	<style>
+ 	  .iframe-container {
+        position: relative;
+        overflow: hidden;
+        padding-top: 56.25%;
+      }
+      .iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+	</style>
+
 </head>
 <body>
 	{% include header.html %}
@@ -48,6 +65,13 @@
 				</article>
 				<aside>
 					<ul>
+						{% for video in page.videos %}
+						<li>
+							<div class="iframe-container">
+								<iframe class="iframe" src="{{video.url | prepend: site.baseurl}}"></iframe>
+							</div>
+						</li>
+						{% endfor %}
 						{% for image in page.images %}
 						<li>
 							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />

@@ -29,7 +29,7 @@
 
 .content {
 	background: $color-white;
-	padding: 7rem 0 0;
+	padding: 3rem 0 0;
 	margin-bottom: 31.24rem;
 	position: relative;
 	top: 0;
@@ -49,6 +49,7 @@
 
 .intro {
 	@media (min-width: $breakpoint-medium) {
+		margin-top: -20rem;
 		p {
 			font-size: 2.7rem;
 			max-width: 66.66666%;
